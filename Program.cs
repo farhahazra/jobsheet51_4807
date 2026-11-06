@@ -12,7 +12,7 @@ int hargaPerHalaman = int.Parse(Console.ReadLine());
 int subtotal = jumlahHalaman * hargaPerHalaman;
 int totalBayar = subtotal + biayaAdmin;
 
-Console.WriteLine("=== RINCIAN PENCETAKAN ===");
+Console.WriteLine("=== RINCIAN PENCATAKAN ===");
 Console.WriteLine($"Nama Pelanggan: {namaPelanggan}");
 Console.WriteLine($"Jumlah Halaman: {jumlahHalaman}");
 Console.WriteLine($"Harga Per Halaman: {hargaPerHalaman}");
